@@ -7,7 +7,11 @@
 </head>
 <body>
     <!-- lan thu 1 -->
+<<<<<<< HEAD
      <!-- ok merge vao main -->
+=======
+    <!--ok -->
+>>>>>>> 30faf7d12186ae3bffaf7fd08863002b1c8f5548
     <?php
      $min = -100;
     $max = 100;
