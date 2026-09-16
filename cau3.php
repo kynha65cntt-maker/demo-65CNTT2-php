@@ -29,6 +29,15 @@
                 else return false;
             }
         }
+        function TongCacSoNguyenToBeHonN($N){
+            $Tong = 0;
+            for($i = 2; $i < $N; $i++){
+                if(NLaSoNguyenTo($i)){
+                    $Tong += $i;
+                }
+            }
+            return $Tong;
+        }
         function NLaSoChinhPhuong($N){
             $canBacHai = sqrt($N);
             if($canBacHai == floor($canBacHai)) return true;
@@ -38,15 +47,6 @@
             echo "<br> $N la so nguyen to <br>";
         }else{
             echo "<br> $N khong la so nguyen to <br>";
-        }
-        function TongCacSoNguyenToBeHonN($N){
-            $Tong = 0;
-            for($i = 2; $i < $N; $i++){
-                if(NLaSoNguyenTo($i)){
-                    $Tong += $i;
-                }
-            }
-            return $Tong;
         }
         $Tong = TongCacSoNguyenToBeHonN($N);
         echo "<br> Tong cac so nguyen to be hon $N la : $Tong <br>";
