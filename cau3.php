@@ -9,6 +9,7 @@
     
     <?php
     // sua cau 3
+    //ok da on <duoc merge>
      $min = -100;
     $max = 100;
     $N = (rand($min, $max));
