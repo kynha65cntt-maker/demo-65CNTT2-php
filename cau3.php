@@ -6,16 +6,12 @@
     <title>Lập trình php 1</title>
 </head>
 <body>
-    <!-- lan thu 1 -->
-<<<<<<< HEAD
-     <!-- ok merge vao main -->
-=======
-    <!--ok -->
->>>>>>> 30faf7d12186ae3bffaf7fd08863002b1c8f5548
+    // fixing error, resolve branch 01
     <?php
      $min = -100;
     $max = 100;
     $N = (rand($min, $max));
+    $M = $N/2;
     $Tong = 0;
     echo "N = $N <br>";
     if($N >= 0){
@@ -27,8 +23,8 @@
         }
     }
         function NLaSoNguyenTo($N){
-            
-            for($i = 2; $i < $N; $i++){
+            $M = $N/2;
+            for($i = 2; $i <= $M; $i++){
                 if($N % $i != 0) return true;
                 else return false;
             }
