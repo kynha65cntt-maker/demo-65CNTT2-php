@@ -6,12 +6,12 @@
     <title>Lập trình php 1</title>
 </head>
 <body>
-    // fixing error, resolve branch 01
+    
     <?php
+    // sua cau 3
      $min = -100;
     $max = 100;
     $N = (rand($min, $max));
-    $M = $N/2;
     $Tong = 0;
     echo "N = $N <br>";
     if($N >= 0){
@@ -23,11 +23,11 @@
         }
     }
         function NLaSoNguyenTo($N){
-            $M = $N/2;
-            for($i = 2; $i <= $M; $i++){
-                if($N % $i != 0) return true;
-                else return false;
+            if($N < 2) return false;
+            for($i = 2; $i < $N; $i++){
+                if($N % $i == 0) return false;
             }
+            return true;
         }
         function TongCacSoNguyenToBeHonN($N){
             $Tong = 0;
