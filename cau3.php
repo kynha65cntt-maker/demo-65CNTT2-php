@@ -6,8 +6,6 @@
     <title>Lập trình php 1</title>
 </head>
 <body>
-    <!-- lan thu 1 -->
-    <!--ok -->
     <?php
      $min = -100;
     $max = 100;
