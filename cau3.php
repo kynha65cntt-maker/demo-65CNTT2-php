@@ -6,7 +6,10 @@
     <title>Lập trình php 1</title>
 </head>
 <body>
+<<<<<<< HEAD
     
+=======
+>>>>>>> fef5e5a16caab70f1882059200edf78da4d6b0db
     <?php
     // sua cau 3
      $min = -100;
