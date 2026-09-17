@@ -12,6 +12,7 @@
 >>>>>>> fef5e5a16caab70f1882059200edf78da4d6b0db
     <?php
     // sua cau 3
+    //ok da on <duoc merge>
      $min = -100;
     $max = 100;
     $N = (rand($min, $max));
